@@ -1,7 +1,10 @@
 import React from 'react';
+import Greetings from './Greetings';
 
 export default class App extends React.Component{
   render(){
-    return <h1>Hellofrom react</h1>;
+    return(
+      <Greetings />
+    );
   }
 }
